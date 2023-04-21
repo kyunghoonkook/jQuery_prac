@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>85-mousewheel-horizontal</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        .banner{
+            width:300%;
+            height:500px;
+        }
+        .banner>li{
+            float:left;
+            width:33.33333%;
+            height:100%;
+            color:white;
+            font-size:60px;
+        }
+        .banner>.banner1{
+            background-color: yellowgreen;
+        }
+        .banner>.banner2{
+            background-color: tomato;
+        }
+        .banner>.banner3{
+            background-color:royalblue;
+        }
+
+    </style>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/85-mousewheel-horizontal.js"></script>
+</head>
+<body>
+    <div id="mainBanner">
+        <ul class="banner clearFix">
+            <li class="banner1">banner1</li>
+            <li class="banner2">banner2</li>
+            <li class="banner3">banner3</li>
+        </ul>
+    </div>
+</body>
+</html>

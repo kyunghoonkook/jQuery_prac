@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17-addClass-removeClass</title>
+    <style>
+        .bg{
+            background:pink;
+            color:white;
+        }
+    </style>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //추가버튼을 클릭하면 css로 만들어놓은 .bg클래스가 h1에 적용되도록
+            $("button:eq(0)").click(function(){
+                $("h1").addClass("bg");
+            })
+
+            //제거버튼을 클릭하면 .bg클래스를 h1에서 제거하도록
+            $("button:eq(1)").click(function(){
+                $("h1").removeClass("bg");
+            })
+            // 추가/제거 버튼을 클릭하면 클래스가 있는면 제거되고 없으면 추가되도록
+            $("button:eq(2)").click(function(){
+                $("h1").toggleClass("bg");
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <h1>addClass removeClass</h1>
+    <button>추가</button>
+    <button>제거</button>
+    <button>추가/제거</button>
+</body>
+</html>
