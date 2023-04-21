@@ -1,0 +1,99 @@
+.parallax{
+    position: relative;
+    height:3600px;
+
+}
+.parallax>div{
+    position: absolute;
+    width:100%;
+    height:1200px;
+    background-repeat:no-repeat;
+    background-position: center 0;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.section1{
+    background-image: url(../images/bg_main01.jpg);
+}
+.section2{
+    background-image: url(../images/bg_main02.jpg);
+    top:1200px;
+}
+.section3{
+    background-image: url(../images/bg_main03.jpg);
+    top:2400px;
+}
+
+.parallax>div>*{
+    position: absolute;
+}
+
+.parallax .textBox{
+    left:250px;
+    top:200px;
+    z-index: 100;
+
+}
+.parallax .arrow{
+    position: absolute;
+    left:400px;
+    top:0;
+}
+
+.parallax .title{
+    left:250px;
+    top:400px;
+    z-index: 50;
+}
+
+.section1 .obj1{
+    left:130px;
+}
+.section1 .obj2{
+    left:700px;
+    top:350px;
+}
+.section1 .obj3{
+    left:730px;
+    top:452px;
+}
+.section1 .obj4{
+    left:550px;
+    top:660px;
+}
+.section1 .obj5{
+    left:900px;
+    top:860px;
+}
+.section1 .obj6{
+    left:1200px;
+    top:650px;
+}
+.section1 .obj7{
+    top:900px;
+}
+.section2 .obj1{
+    left:800px;
+    top:-50px;
+}
+.section2 .obj2{
+    left:650px;
+    top:100px;
+}
+.section2 .obj3{
+    left:750px;
+    top:200px;
+}
+.section2 .obj4{
+    left:550px;
+    top:550px;
+}
+.section2 .obj5{
+    left:620px;
+    top:670px;
+}
+.section3 .obj1{
+    left:600px;
+    top:-200px;
+}

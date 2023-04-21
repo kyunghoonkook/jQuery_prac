@@ -1,0 +1,10 @@
+.snsWrap{
+    
+}
+.sns>li{
+    float:left;
+    width:266px;
+}
+.sns>li>img{
+    width: 100%;
+}

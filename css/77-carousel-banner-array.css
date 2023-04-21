@@ -1,0 +1,68 @@
+.carouselBanner{
+    width:1200px;
+    height:250px;
+    margin:0 auto;
+    position: relative;
+    background: pink;
+}
+.banner{
+    
+}
+.banner>li{
+    width:400px;
+    padding:5px;
+    box-sizing: border-box;
+    position: absolute;    
+}
+.banner>.b1{
+    left:-800px;
+}
+.banner>.b2{
+    left:-400px;
+}
+.banner>.b3{
+    left:0px;
+}
+.banner>.b4{
+    left:400px;
+}
+.banner>.b5{
+    left:800px;
+}
+.banner>.b6{
+    left:1200px;
+}
+.banner>.b7{
+    left:1600px;
+}
+.banner>.b8{
+    left:2000px;
+}
+.banner>li img{
+    width:100%;
+}
+
+.arrowBtn>li{
+    position: absolute;
+    top:50%;
+}
+.arrowBtn>.left{
+    left:0;
+}
+.arrowBtn>.right{
+    right:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

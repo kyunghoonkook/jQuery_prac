@@ -1,0 +1,56 @@
+nav{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width:100%;
+    left:-100%;
+}
+
+#nav{
+    width:70%;
+    background:#222;
+}
+#nav>li{
+    line-height: 40px;
+    border-bottom:1px solid #444;
+}
+#nav>li>a{
+    display: block;
+    text-indent: 20px;
+    color:white;
+    background-image: url(../images/mob_gnb_arrow_down_w.png);
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+#nav>.active>a{
+    background-image: url(../images/mob_gnb_arrow_up_w.png);
+}
+
+.sub{
+    background:#333;
+    display: none;
+}
+
+.sub>li>a{
+    display: block;
+    color:#ddd;
+    text-indent: 30px;
+    border-bottom:1px solid #555;
+}
+
+.hamBtn{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+.hamBtn>a{
+    display: block;
+    width:24px;
+    height:24px;
+    background-image: url(../images/hamBtn.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hamBtn>a.active{
+    background-image: url(../images/icon_modal_close.png);
+}

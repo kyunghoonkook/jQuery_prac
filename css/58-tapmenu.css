@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+#tabWrap{
+    width: 494px;
+    margin: 10px auto;
+}
+.tabBtn{
+    overflow: hidden;
+}
+.tabBtn>li{
+    float: left;
+}
+.tabBtn>li>a{
+    display: block;
+    height: 25px;
+}
+.tabBtn>.active>a>img{
+    margin-top: -25px;
+}
+.tabList{
+    
+}
+.tabList>div{
+    position: absolute;
+    display: none;
+}
+.tabList>.on{
+    display: block;
+}

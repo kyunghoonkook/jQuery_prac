@@ -1,0 +1,46 @@
+header{
+    position:fixed;
+    width:100%;
+    height: 100px;
+    background-color:skyblue;
+    opacity: 0.7;
+}
+.center{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    float:left ;
+    margin:40px 0 0;
+}
+#nav{
+    float:right;
+    margin-top:40px;
+}
+#nav>li{
+    float:left;
+    margin-left: 100px;
+}
+#nav>li>a{
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+}
+#nav>li.active>a{
+    color:steelblue;
+}
+
+#container>section{
+    padding-top:100px;
+    box-sizing: border-box;
+}
+#container>.conTop{
+    background-color:tomato
+}
+#container>.conMiddle{
+    background-color:yellowgreen
+}
+#container>.conBottom{
+    background-color:wheat;
+}

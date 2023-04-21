@@ -1,0 +1,36 @@
+.bannerWrap{
+    width:600px;
+    height:360px;
+    margin:0 auto;
+    position: relative;
+}
+.banner>li{
+    position: absolute;
+    display: none;
+}
+.banner>li:first-child{
+    display: block;
+}
+
+.controlBtn{
+    position: absolute;
+    bottom:20px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.controlBtn>li{
+    float:left;
+    margin: 0 5px;
+}
+.controlBtn>li>a{
+    display: block;
+    width:10px;
+    height:10px;
+    background:white;
+    border-radius: 50%;
+}
+.controlBtn>.active>a{
+    background:red;
+}
+
+

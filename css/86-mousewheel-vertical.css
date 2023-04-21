@@ -1,0 +1,33 @@
+html,body{
+    height:100%;
+}
+#container{
+    font-size:100px;
+    color:white;
+    height:100%;
+}
+section{
+    height: 100%;
+}
+
+.section1{
+    background-color: red;
+}
+.section2{
+    background-color:orange;
+}
+.section3{
+    background-color:yellow;
+}
+.section4{
+    background-color:green;
+}
+.section5{
+    background-color:blue;
+}
+.section6{
+    background-color:darkblue;
+}
+.section7{
+    background-color:purple;
+}

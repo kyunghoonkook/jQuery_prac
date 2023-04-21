@@ -1,0 +1,64 @@
+#videoWrap{
+    width:1280px;
+    margin:0 auto;
+    background-color:#eee;
+    padding:40px 0;
+    text-align: center;
+    position: relative;
+}
+
+.videoBanner{
+/*    부모의 사이즈는 자식의개수*100% / 보고싶은개수 */
+    width:500%;
+    margin-left:-320px;
+}
+.videoBanner>li{
+    float:left;
+    width:10%;
+    position: relative;
+}
+.videoBanner>li img{
+    width:100%;
+}
+.videoBanner>li>.video{
+    width:100%;
+    position: absolute;
+    top:0;  
+    display: none;
+}
+.videoBanner>li:nth-child(2)>.video{
+    display: block;
+}
+.videoBanner>li>.video .youtube{
+    background-color:dodgerblue;
+    font-size:60px;
+    line-height: 360px;
+}
+.videoBanner>li>.photo{
+    padding:30px 50px;
+}
+
+.videoBanner>li>.photo .pText{
+    position: absolute;
+    color:white;
+    font-size:40px;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.videoBanner>li strong{
+    display: block;
+}
+.arrowBtn{
+    position: absolute;
+    top:0%;
+    right:0;
+}
+.arrowBtn>li{
+    float:left;
+    margin:0 10px;
+}
+
+
+

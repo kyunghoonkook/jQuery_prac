@@ -1,0 +1,16 @@
+.wrap {
+    overflow: hidden;
+    /* background: #000; */
+}
+.dunkin {
+    width: 200%;
+}
+.dunkin > li {
+    float: left;
+    width: 12.5%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.dunkin img {
+    width: 100%;
+}

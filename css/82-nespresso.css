@@ -1,0 +1,130 @@
+.subtainableWrap{
+    background:url(../images/mockup.jpg) no-repeat 0 20px,
+    url(../images/capsules.png)  no-repeat center bottom;   
+    padding-bottom:250px;
+    overflow: hidden;
+}
+
+.subtainableWrap>.title{
+    text-align: center;
+    font-size:28px;
+    letter-spacing: -1px;
+    /* margin:70px 0 0 0; */
+    padding-top:70px;
+    padding-bottom:25px;
+    position: relative;
+}
+.subtainableWrap>.title::after{
+    content:"";
+    display: block;
+    width:57px;
+    height:2px;
+    background:black;
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform: translateX(-50%);
+}
+.subtainable{
+    margin-top:30px;
+    background:#fcf9f8;
+    height:600px;
+    position: relative;
+    left:50%;
+    transform: translateX(-600px);
+}
+
+.bigSubtainable{
+    
+}
+.bigSubtainable>li{
+    position: absolute;
+    display: none;
+}
+.bigSubtainable>li:first-child{
+    display: block;
+}
+.bigSubtainable>li>div{
+    float:left;
+}
+.bigSubtainable>li .imgBox{
+    position:relative;
+}
+.bigSubtainable>li .imgBox>.imgText{
+    position: absolute;
+    top:90px;
+    right:90px;
+    text-align: right;
+    width:350px;
+    color:white;
+    word-break: keep-all;
+}
+.bigSubtainable>li .imgBox>.imgText strong{
+    font-size:50px;
+    font-weight: normal;
+}
+.bigSubtainable>li .imgBox>.imgText p{
+    margin-top:20px;
+    font-size:17px;
+}
+.bigSubtainable>li .textBox{
+    padding:200px 0 0 35px;
+    letter-spacing: -0.05em;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.bigSubtainable>li .textBox h3{
+    font-size:20px;
+    width:220px;
+}
+.bigSubtainable>li .textBox p{
+    font-size:16px;
+    width:325px;
+}
+.bigSubtainable>li .textBox p:nth-of-type(1){
+    color:#a6886f;
+    width:200px;
+    margin:20px 0 25px;
+}
+.bigSubtainable>li .textBox p>span{
+    display: block;
+    line-height: 1.5;
+}
+.smallWrap{
+    position: absolute;
+    top:85px;
+    left:960px;
+    margin-left:-80px;
+    overflow: hidden;
+}
+.smallSubtainable{    
+    width:1400px;
+    margin-left:-20%;
+}
+
+.smallSubtainable>li{
+    float:left;
+    padding:0 10px;
+    width:20%;
+    box-sizing: border-box;
+}
+.smallSubtainable>li>div{
+    height:180px;
+    background:#f1e9e6;
+    text-align: center;
+}
+.smallSubtainable>li>img{
+    width: 100%;
+}
+.arrowBtn>li{
+    position: absolute;
+    top:50%;
+    left:900px;
+}
+.arrowBtn>.rightBtn{
+    left:50%; 
+    margin-left:450px; 
+}
+.arrowBtn>.leftBtn{
+    display: none;
+}

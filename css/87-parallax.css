@@ -1,0 +1,23 @@
+#container{}
+#container>.parallax{
+    height:400px;
+    background-position: center 0;
+    background-attachment:fixed;
+}
+#container>.bg1{
+    background-image: url(../images/mainBanner01.jpg);
+}
+#container>.bg2{
+    background-image: url(../images/mainBanner02.jpg);
+}
+#container>.bg3{
+    background-image: url(../images/mainBanner03.jpg);
+}
+#container>.bg4{
+    background-image: url(../images/mainBanner04.jpg);
+}
+#container>.textBox{
+    height:350px;
+    background:white;
+    font-size:50px;
+}

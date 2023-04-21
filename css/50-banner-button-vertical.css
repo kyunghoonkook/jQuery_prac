@@ -1,0 +1,44 @@
+#mainBanner{
+    width:600px;
+    height:300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner{
+    
+}
+.banner>li{
+    height:300px;
+    font-size:80px;
+}
+.banner>li:first-child{
+    background-color:antiquewhite
+}
+.banner>li:nth-child(2){
+    background-color: pink;
+}
+.banner>li:last-child{
+    background-color:deepskyblue;
+}
+
+.btn{
+    position: absolute;
+    bottom:50px;
+}
+.btn>li{
+    display: inline-block;
+}
+.btn>li>a{
+    display: block;
+    width:30px;
+    height:30px;
+    background:black;
+    color:white;
+    text-align: center;
+    font-size:25px;
+}
+.btn>.active>a{
+    background:#ddd;
+    color:black;
+}

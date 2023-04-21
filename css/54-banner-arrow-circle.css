@@ -1,0 +1,93 @@
+#mainBanner{
+    width:100%;
+    height:480px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.banner{
+    width:500%;
+    height:100%;
+}
+.banner>li{
+    float:left;
+    width: 20%;
+    height: 100%;
+}
+.banner>li>a{
+    display: block;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;    
+}
+
+.banner>.b1>a{
+    background-image: url(../images/mainBanner01.jpg);
+}
+.banner>.b2>a{
+    background-image: url(../images/mainBanner02.jpg);
+}
+.banner>.b3>a{
+    background-image: url(../images/mainBanner03.jpg);
+}
+.banner>.b4>a{
+    background-image: url(../images/mainBanner04.jpg);
+}
+.banner>.b5>a{
+    background-image: url(../images/mainBanner05.jpg);
+}
+.arrow{
+}
+.arrow>li{
+    position: absolute;
+    top:50%;
+}
+.arrow>.leftBtn{
+    left:0;
+}
+.arrow>.rightBtn{
+    right:0;
+}
+.circle{
+    position: absolute;
+    bottom:50px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.circle>li{
+    float:left;
+    margin:0 5px;
+    position: relative;
+}
+.circle>li>a{
+    display: block;
+    width:15px;
+    height:15px;
+    background:#333;
+    color:white;
+    text-align: center;
+    line-height: 15px;
+}
+.circle>li.active::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:20px;
+    height:20px;
+    border: 2px solid red;
+    top:50%;
+    left:50%; 
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
+.circle>.active>a{
+    background: red;
+}
+
+
+
+
+
+
+

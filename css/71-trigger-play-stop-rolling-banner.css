@@ -1,0 +1,64 @@
+#mainBanner{
+    width:600px;
+    margin:0 auto;
+    position: relative;
+}
+.banner{
+    width:800%;
+}
+.banner>li{
+    float:left;
+/*    배경으로 그림을 입력하면 width,height값 필수*/
+}
+.controlWrap{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    background:#ddd;
+}
+.controlWrap>*{
+    float:left;
+    font-size:25px;
+}
+.text>span{
+    display: inline-block;
+    width:40px;
+    text-align: center;
+}
+
+.btn>li{
+    display: inline-block;
+}
+.btn>li>a{
+    display: block;
+    width:24px;
+    height:24px;
+    background:white;
+    padding:5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+}
+.btn>.left>a{
+    background-image: url(../images/btn-back.png);
+}
+.btn>.right>a{
+    background-image: url(../images/btn-reward.png)
+}
+
+.btn>.playStop>a{
+    background-image: url(../images/btn-pause.png);
+}
+.btn>.on>a{
+    background-image: url(../images/btn-play.png);
+}
+
+
+
+
+
+
+
+
+
+

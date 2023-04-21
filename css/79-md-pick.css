@@ -1,0 +1,52 @@
+.mdPickWrap{
+    background:skyblue;
+}
+.mdPickWrap>h2{
+    text-align: center;
+}
+.mdPick{
+/*    100%*자식의개수/화면에보여지는개수 */
+/*    반쪽이동하기 175%/자식의개수/2 */
+    width:175%;
+    margin-left:-12.5% ;
+}
+.mdPick>li{
+/*    100%/자식의개수 */
+    float:left;
+    width:14.285714%;
+    padding:0 10px;
+    box-sizing: border-box;    
+}
+.mdPick>li a{
+    display: block;
+    position: relative;
+}
+.mdPick>li img{
+    width:100%;
+}
+.mdPick>li .textBox{
+    position: absolute;
+    top:0;
+    font-size:30px;
+    display: none;
+}
+.scrollBg{
+    background:#ccc;
+    width:90%;
+    margin:30px auto;
+    border-radius: 10px;
+    height:5px;
+}
+.scrollBg>li{
+    float:left;
+    width:14.285714%;
+    height:5px;
+    background:transparent;
+    text-indent: -9999px;
+}
+.scrollBg>li.active{
+    background:black;
+    transition: 2s;
+}
+
+

@@ -1,0 +1,66 @@
+header{
+    height:100px;
+    background:#eee;
+}
+#mainBanner{
+    height:600px;
+    background:url(../images/20210604171949396KO.jpg);
+    position: relative;
+}
+#mainBanner>p{
+    position: absolute;
+    display: none;
+}
+#mainBanner>.banner1{    
+    top:100px;
+    left:20%;    
+}
+
+#mainBanner>.banner2{
+    left:100px;
+    top:200px;
+}
+#mainBanner>.banner3{
+    left:300px;
+    top:300px;
+}
+
+#mainBanner>p>img{
+    width:120%;
+}
+
+#container{
+    overflow: hidden;
+}
+#container>section{
+    font-size:30px;
+    height:650px;
+    padding:100px;
+    position: relative;
+}
+#container>.section1{
+    background-color: dodgerblue;
+}
+
+#container>.section2{
+    background-color:darkseagreen
+}
+
+#container>section>.title{
+    margin-bottom: 50px;
+    position: absolute;
+    left:-200px;
+}
+#container>section>p{
+    position: absolute;
+    right:-400px;
+}
+#container>section>.textBox{
+    position: absolute;
+    bottom:20px;
+    
+}
+
+
+
+

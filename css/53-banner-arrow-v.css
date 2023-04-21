@@ -1,0 +1,53 @@
+#mainBanner{
+    width:1200px;
+    height:400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden
+}
+.banner{
+    width:100%;
+    height:100%;
+}
+.banner>li{
+    width:100%;
+    height:100%; 
+}
+.banner>li>a{
+    display: block;
+    height:100%;
+    font-size:100px;
+}
+.banner>li:first-child>a{
+    background-color: darkorange
+}
+.banner>li:nth-child(2)>a{
+    background-color: deeppink
+}
+.banner>li:nth-child(3)>a{
+    background-color: deepskyblue
+}
+.banner>li:last-child>a{
+    background-color: darkgreen
+}
+
+.arrow{
+    position: absolute;
+    top:50%;
+    width:100%;
+}
+.arrow>li:first-child{
+    float: left
+}
+.arrow>li:last-child{
+    float:right;
+}
+
+
+
+
+
+
+
+
+
